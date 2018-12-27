@@ -1,0 +1,135 @@
+/* Font Styles -------------- */
+/* @font-face {
+	font-family: 'abolition regular';
+	src: url('fonts/abolition-regular-webfont.eot');
+  src: url('fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/abolition-regular-webfont.woff') format('woff'),
+       url('fonts/abolition-regular-webfont.ttf') format('truetype'); */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+header {
+  background-color: lightblue;
+  padding-top: 160px;
+  height: 350px;
+  background: url('images/camera.jpg') no-repeat 0 45%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+/* Class Style --------- */
+
+.title {
+  border-bottom: 2px solid;
+  display: table;
+  margin: auto;
+}
+
+
+
+/* Navigation....... */
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+.nav .name {
+  display: none;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all .5s;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+/* link styles */
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Gallery....... */
+
+.the-gallery {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.gallery {
+    margin: 35px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Clearfix ------------ */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
